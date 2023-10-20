@@ -44,6 +44,7 @@ a, .hero-secondary {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bolder;
     flex-shrink: 0;
 }
 
@@ -53,9 +54,30 @@ a, .hero-secondary {
     color: #f9faf8;
 }
 
-button {
+.hero button {
     background-color: #3882f6;
     color: #f9faf8;
+    margin-top: 8px;
 }
 
+.hero {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 8px 256px 24px 256px;
+    gap: 32px;
+}
+
+.hero-text {
+    width: 500px;
+    min-width: 200px;
+}
+
+.placeholder {
+    background-color: gray;
+    align-self: stretch;
+    flex: 1;
+    text-align: center;
+    min-width: 200px;
+}
 
