@@ -58,6 +58,10 @@ a, .hero-secondary {
     background-color: #3882f6;
     color: #f9faf8;
     margin-top: 8px;
+    border-radius: 8px;
+    padding: 4px 16px;
+    border: none;
+    font-weight: bolder;
 }
 
 .hero {
