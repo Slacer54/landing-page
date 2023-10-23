@@ -154,4 +154,9 @@ a, .hero-secondary {
     font-size: 28px;
     text-align:right;
     font-weight: bolder;
+    
+}
+
+.quote {
+    padding-bottom: 52px;
 }
