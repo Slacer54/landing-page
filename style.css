@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    display: flex;
     flex-direction: column;
 }
 
@@ -72,13 +71,14 @@ a, .hero-secondary {
     display: flex;
     align-items:center;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 8px 256px 24px 256px;
     gap: 32px;
 }
 
 .hero-text {
-    width: 500px;
-    min-width: 200px;
+    /* width: 500px; */
+    max-width: 500px;
 }
 
 .placeholder {
@@ -97,8 +97,10 @@ a, .hero-secondary {
     color: #1F2937;
     display: flex;
     justify-content: center;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    /* padding-top: 48px;
+    padding-bottom: 48px; */
+    padding: 48px 256px 48px 256px;
+    text-align: center;
 }
 
 .info-cards {
