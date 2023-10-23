@@ -172,4 +172,27 @@ a, .hero-secondary {
 
 .call-to-action {
     background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.call {
+    padding: 32px 120px;
+    display: flex;
+    color: #f9faf8;
+    gap: 150px;
+}
+
+.call-header {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.call button {
+    margin-top: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 4px 16px;
+    border: 2px solid #f9faf8;
+    font-weight: bolder;
 }
