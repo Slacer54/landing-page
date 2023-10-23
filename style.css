@@ -3,8 +3,11 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    
+    display: flex;
+    flex-direction: column;
 }
+
+/* Header Section */
 
 .header {
     background-color: #1F2937;
@@ -86,3 +89,14 @@ a, .hero-secondary {
     min-width: 200px;
 }
 
+/* Information Section */
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
