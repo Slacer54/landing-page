@@ -197,3 +197,16 @@ a, .hero-secondary {
     border: 2px solid #f9faf8;
     font-weight: bolder;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+p {
+    color: #f9faf8;
+    text-align: center;
+}
