@@ -180,6 +180,7 @@ a, .hero-secondary {
     display: flex;
     color: #f9faf8;
     gap: 150px;
+    flex-wrap: wrap;
 }
 
 .call-header {
